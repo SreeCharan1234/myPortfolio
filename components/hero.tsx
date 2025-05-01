@@ -118,55 +118,7 @@ export default function Hero() {
             </a>
           </motion.div>
         </motion.div>
-
-        <motion.div
-          className="relative flex-1 flex justify-center"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <div className="relative w-72 h-72 md:w-96 md:h-96">
-            {/* Profile Image with Glow Effect - With proper cropping for tall portrait */}
-            <motion.div
-              className="absolute inset-0 rounded-full glow-effect overflow-hidden"
-              animate={{
-                boxShadow: [
-                  "0 0 15px 2px rgba(123, 31, 162, 0.5), 0 0 30px 4px rgba(32, 84, 243, 0.4)",
-                  "0 0 20px 5px rgba(123, 31, 162, 0.7), 0 0 40px 7px rgba(32, 84, 243, 0.6)",
-                ],
-              }}
-              transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-            >
-              <div className="w-full h-full relative">
-                {/* Using objectPosition to focus on the face area of the tall portrait */}
-                <Image
-                  src="/hero.png"
-                  alt="K Sree Charan"
-
-                  fill
-                  className="object-cover object-[center_top]"
-                  priority
-                />
-              </div>
-            </motion.div>
-
-            {/* Rotating Dashed Ring - Slower rotation */}
-            <motion.div
-              className="absolute inset-0 w-full h-full rounded-full border-4 border-dashed border-neon-blue"
-              style={{ borderRadius: "50%" }}
-              animate={{ rotate: 360 }}
-              transition={{ duration: 30, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-            />
-
-            {/* Second Rotating Ring (opposite direction) - Slower rotation */}
-            <motion.div
-              className="absolute inset-0 w-[calc(100%+20px)] h-[calc(100%+20px)] -ml-[10px] -mt-[10px] rounded-full border-2 border-dashed border-neon-purple"
-              style={{ borderRadius: "50%" }}
-              animate={{ rotate: -360 }}
-              transition={{ duration: 25, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-            />
-          </div>
-        </motion.div>
+        
       </div>
 
       {/* Scroll Down Indicator */}
