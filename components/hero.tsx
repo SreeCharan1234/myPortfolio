@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from "react"
 import Image from "next/image"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { ArrowDown } from "lucide-react"
+import photos from "../public/myphoto2.png"
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -139,8 +140,9 @@ export default function Hero() {
               <div className="w-full h-full relative">
                 {/* Using objectPosition to focus on the face area of the tall portrait */}
                 <Image
-                  src="/#?height=400&width=400"
+                  src="/hero.png"
                   alt="K Sree Charan"
+
                   fill
                   className="object-cover object-[center_top]"
                   priority
