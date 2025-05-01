@@ -63,15 +63,7 @@ export default function About() {
                         ease: "easeInOut"
                       }}
                     />
-                    <div className="relative z-10 rounded-xl overflow-hidden border-2 border-cyan-500">
-                      <Image
-                        src="/#?height=300&width=300"
-                        alt="About Me"
-                        width={300}
-                        height={300}
-                        className="object-cover"
-                      />
-                    </div>
+              
                   </div>
 
                   <div className="flex-1">
