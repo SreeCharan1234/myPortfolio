@@ -22,7 +22,7 @@ export default function Hero() {
   const [loopNum, setLoopNum] = useState(0)
   const [typingSpeed, setTypingSpeed] = useState(100)
 
-  const phrases = ["Software Developer", "Tech Enthusiast", "Full Stack Web Developer"]
+  const phrases = ["Data Science Enthusiast","Software Developer", "9+ Hackathon Winner", "LifeLong Learner"]
   const period = 1500 // pause time after text is fully typed
 
   useEffect(() => {
@@ -84,7 +84,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            Shubham Pandey
+            K Sree Charan
           </motion.h1>
 
           <motion.div
@@ -139,8 +139,8 @@ export default function Hero() {
               <div className="w-full h-full relative">
                 {/* Using objectPosition to focus on the face area of the tall portrait */}
                 <Image
-                  src="/myphoto2.png?height=400&width=400"
-                  alt="Shubham Pandey"
+                  src="/#?height=400&width=400"
+                  alt="K Sree Charan"
                   fill
                   className="object-cover object-[center_top]"
                   priority

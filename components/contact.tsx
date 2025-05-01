@@ -326,7 +326,7 @@ export default function Contact() {
                   </div>
                   
                   {/* Hidden field for EmailJS template */}
-                  <input type="hidden" name="to_name" value="Shubham Pandey" />
+                  <input type="hidden" name="to_name" value="K Sree Charan" />
 
                   {submitStatus.message && (
                     <div className={`p-3 rounded-lg ${submitStatus.success ? 'bg-green-900/60 text-green-200' : 'bg-red-900/60 text-red-200'}`}>

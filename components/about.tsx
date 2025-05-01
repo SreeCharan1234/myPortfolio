@@ -65,7 +65,7 @@ export default function About() {
                     />
                     <div className="relative z-10 rounded-xl overflow-hidden border-2 border-cyan-500">
                       <Image
-                        src="/awardimage.png?height=300&width=300"
+                        src="/#?height=300&width=300"
                         alt="About Me"
                         width={300}
                         height={300}
@@ -80,23 +80,19 @@ export default function About() {
                       <h3 className="text-xl font-semibold">Who I Am</h3>
                     </div>
                     <p className="text-gray-300 mb-4">
-                      I&apos;m Shubham Pandey, a passionate Full Stack Developer with expertise in building modern web
-                      applications. I specialize in creating responsive, user-friendly interfaces and robust backend systems
-                      that deliver exceptional user experiences.
+                    👋 Hi, I'm K. Sree Charan, a passionate and driven individual specializing in software development, AI/ML, and web technologies. With expertise in languages like C++, Java, Python, and tools such as TensorFlow, PyTorch, Flask, and FastAPI, I’m constantly exploring innovative solutions in real-world projects. 🚀
                     </p>
-                    <p className="text-gray-300">
+                    {/* <p className="text-gray-300">
                       With a strong foundation in computer science and a keen interest in emerging technologies, I
                       continuously expand my skills to stay at the forefront of web development trends and best practices.
-                    </p>
+                    </p> */}
                 <br />
                     <div className="flex items-center mb-4">
                   <Code className="text-neon-blue mr-3" size={24} />
                   <h3 className="text-xl font-semibold">What I Do</h3>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  I develop full-stack web applications using modern JavaScript frameworks like React and Next.js for
-                  frontend, and Node.js with Express for backend services. My expertise includes building RESTful APIs,
-                  implementing authentication systems, and working with various databases.
+                I am currently pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University, with a CGPA of 7.06. During my internships at IIT-Bhubaneswar and LearnFlu Ed-Tech, I gained hands-on experience in cloud-based applications, database integration, and CI/CD pipeline management.
                 </p>
                     
                   </div>
@@ -162,17 +158,13 @@ export default function About() {
                 <li className="flex flex-col">
                   <span className="font-medium">B.Tech in Computer Science</span>
                   <span className="text-sm text-gray-400">Lovely Professional University • 2022 - 2026</span>
-                  <span className="text-sm text-gray-400">phagwara , Punjab  | CGPA : 8.7</span>
+                  <span className="text-sm text-gray-400">phagwara , Punjab  | CGPA : 7.2</span>
                 </li>
                 <li className="flex flex-col">
-                  <span className="font-medium">B.D. Public School - Higher Secondary</span>
-                  <span className="text-sm text-gray-400"> Patna , Bihar | 2018 - 2020 | Percentage:- 90%</span>
+                  <span className="font-medium">Kendriya Vidyalaya </span>
+                  <span className="text-sm text-gray-400"> Delhi | 2020-2022 | Percentage:- 81%</span>
                 </li>
-                <li className="flex flex-col">
-                  <span className="font-medium">Trident Public School - Matriculation
-                  </span>
-                  <span className="text-sm text-gray-400">Muzaffarpur , Bihar | 2017 - 2018 | Percentage:- 85.2% </span>
-                </li>
+        
               </ul>
             </motion.div>
           </motion.div>

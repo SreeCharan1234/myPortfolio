@@ -57,7 +57,7 @@ export default function Navbar() {
       >
         <div className="container mx-auto flex justify-between items-center">
           <motion.div className="text-xl font-bold text-white text-glow" whileHover={{ scale: 1.05 }}>
-            <Link href="#home">Shubham Pandey</Link>
+            <Link href="#home">K Sree Charan</Link>
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -36,7 +36,7 @@ export default function LoadingScreen() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Shubham Pandey
+          K Sree Charan
         </motion.h1>
 
         <motion.div
